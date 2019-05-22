@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome file</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#markdown-plus">Markdown Plus</a>
+<ul>
+<li><a href="#apps">Apps</a></li>
+</ul>
+</li>
+<li><a href="#table-of-contents">Table of Contents</a>
+<ul>
+<li><a href="#mastering-markdown">Mastering Markdown</a></li>
+<li><a href="#strikethrough">strikethrough</a></li>
+<li><a href="#insert">++insert++</a></li>
+<li><a href="#mark">mark</a></li>
+<li><a href="#subscript-h2o">Subscript: H2O</a></li>
+<li><a href="#superscript-29th">Superscript: 29th</a></li>
+<li><a href="#emoji-panda_face-sparkles-camel-boom-pig">Emoji: 🐼 ✨ 🐫 💥 🐷</a></li>
+<li><a href="#fontawesome-fa-cab-fa-flag-fa-bicycle-fa-leaf-fa-heart">Fontawesome: :fa-cab: :fa-flag: :fa-bicycle: :fa-leaf: :fa-heart:</a></li>
+<li><a href="#print-hello-code">print 'hello code'</a></li>
+<li><a href="#tables-and-alignment">Tables and alignment</a></li>
+<li><a href="#task-list">Task list</a></li>
+<li><a href="#abbreviation">Abbreviation</a></li>
+<li><a href="#footnote">Footnote</a></li>
+<li><a href="#mathematical-formula-y--x2">Mathematical formula $y = x^2$</a></li>
+<li><a href="#asciimath">AsciiMath</a></li>
+<li><a href="#mermaid-charts">mermaid charts</a></li>
+<li><a href="#custom-container">Custom Container</a></li>
+<li><a href="#definition-list">Definition list</a></li>
+<li><a href="#html">HTML</a></li>
+<li><a href="#charts">Charts</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="markdown-plus">Markdown Plus</h1>
+<p>Markdown Plus (“M+” or “mdp” for short) is a markdown editor with extra features.</p>
+<h2 id="apps">Apps</h2>
+<p>We currently <em><strong>don’t</strong></em> accept donations.<br>
+The best way to support our development is to buy our apps.</p>
+<h3 id="markdown-plus-1">Markdown Plus</h3>
+<p><a href="http://tylingsoft.com/markdown-plus/"><img src="http://tylingsoft.com/img/mdp/icon.png" height="64px"></a><br>
+<a href="http://tylingsoft.com/markdown-plus/">Markdown Plus</a> is available for both OS X and Windows. You get every feature of the web version plus lots of advanced features.</p>
+<h3 id="markdown-mate">Markdown Mate</h3>
+<p><a href="http://tylingsoft.com/markdown-mate/"><img src="http://tylingsoft.com/img/mdm/icon.png" height="64px"></a><br>
+<a href="http://tylingsoft.com/markdown-mate/">Markdown Mate</a> is a markdown previewer, it’s not going to replace your favorite editor but handles everything about markdown.</p>
+<p>::: success<br>
+We provide email support to those who have purchased the apps: <strong><a href="mailto:service@tylingsoft.com">service@tylingsoft.com</a></strong><br>
+:::</p>
+<hr>
+<h1 id="table-of-contents">Table of Contents</h1>
+<p>[toc]</p>
+<p>Note: Only <code>h2</code> and <code>h3</code> are shown in toc.</p>
+<h2 id="mastering-markdown">Mastering Markdown</h2>
+<p>Markdown allows you to write using an easy-to-read, easy-to-write plain text format, which then converts to valid <abbr title="Hyper Text Markup Language">HTML</abbr> for viewing.</p>
+<p><a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown Guide</a>.</p>
+<h2 id="strikethrough"><s>strikethrough</s></h2>
+<h2 id="insert">++insert++</h2>
+<h2 id="mark"><mark>mark</mark></h2>
+<h2 id="subscript-h2o">Subscript: H<sub>2</sub>O</h2>
+<p>You can also use inline math: <code>$H_2O$</code></p>
+<h2 id="superscript-29th">Superscript: 29<sup>th</sup></h2>
+<p>You can also use inline math: <code>$29^{th}$</code></p>
+<h2 id="emoji-panda_face-sparkles-camel-boom-pig">Emoji: 🐼 ✨ 🐫 💥 🐷</h2>
+<p><a href="http://www.emoji-cheat-sheet.com/">Emoji Cheat Sheet</a></p>
+<h2 id="fontawesome-fa-cab-fa-flag-fa-bicycle-fa-leaf-fa-heart">Fontawesome: :fa-cab: :fa-flag: :fa-bicycle: :fa-leaf: :fa-heart:</h2>
+<p><a href="http://fontawesome.io/icons/">All the Font Awesome icons</a></p>
+<h2 id="print-hello-code"><code>print 'hello code'</code></h2>
+<pre><code>evens = [1, 2, 3, 4, 5].collect do |item|
+  item * 2
+end
+</code></pre>
+<pre class=" language-javascript"><code class="prism  language-javascript"><span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'pre code'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">each</span><span class="token punctuation">(</span><span class="token punctuation">(</span>i<span class="token punctuation">,</span> block<span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    hljs<span class="token punctuation">.</span><span class="token function">highlightBlock</span><span class="token punctuation">(</span>block<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<p><a href="https://help.github.com/articles/markdown-basics/#code-formatting">Code Formatting</a></p>
+<h2 id="tables-and-alignment">Tables and alignment</h2>
+
+<table>
+<thead>
+<tr>
+<th>First Header</th>
+<th>Second Header</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Content from cell 1</td>
+<td>Content from cell 2</td>
+</tr>
+<tr>
+<td>Content in the first column</td>
+<td>Content in the second column</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="left">Left-Aligned</th>
+<th align="center">Center Aligned</th>
+<th align="right">Right Aligned</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">col 3 is</td>
+<td align="center">some wordy text</td>
+<td align="right">$1600</td>
+</tr>
+<tr>
+<td align="left">col 2 is</td>
+<td align="center">centered</td>
+<td align="right">$12</td>
+</tr>
+</tbody>
+</table><p><a href="https://help.github.com/articles/github-flavored-markdown/#tables">Table Syntax</a></p>
+<h2 id="task-list">Task list</h2>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> a bigger project
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> first subtask</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> follow up subtask</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> final subtask</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled=""> a separate task</li>
+</ul>
+<p><a href="https://help.github.com/articles/writing-on-github/#task-lists">Task List Syntax</a></p>
+<h2 id="abbreviation">Abbreviation</h2>
+<p>Markup is based on <a href="https://michelf.ca/projects/php-markdown/extra/#abbr">php markdown extra</a> definition, but without multiline support:</p>
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification<br>
+is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+<h2 id="footnote">Footnote</h2>
+<p>Here is a footnote reference,<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup> and another.<sup class="footnote-ref"><a href="#fn2" id="fnref2">2</a></sup></p>
+<p>Here is an inline note.<sup class="footnote-ref"><a href="#fn3" id="fnref3">3</a></sup></p>
+<p><a href="http://pandoc.org/README.html#footnotes">Footnote Syntax</a></p>
+<h2 id="mathematical-formula-y--x2">Mathematical formula <code>$y = x^2$</code></h2>
+<p>Inline math: <code>$\dfrac{ \tfrac{1}{2}[1-(\tfrac{1}{2})^n] }{ 1-\tfrac{1}{2} } = s_n$</code>.</p>
+<p>Math block:</p>
+<pre class=" language-katex"><code class="prism  language-katex">\oint_C x^3\, dx + 4y^2\, dy
+
+2 = \left(
+ \frac{\left(3-x\right) \times 2}{3-x}
+ \right)
+
+\sum_{m=1}^\infty\sum_{n=1}^\infty\frac{m^2\,n}
+ {3^m\left(m\,3^n+n\,3^m\right)}
+
+\phi_n(\kappa) =
+ \frac{1}{4\pi^2\kappa^2} \int_0^\infty
+ \frac{\sin(\kappa R)}{\kappa R}
+ \frac{\partial}{\partial R}
+ \left[R^2\frac{\partial D_n(R)}{\partial R}\right]\,dR
+</code></pre>
+<p><a href="http://meta.wikimedia.org/wiki/Help:Displaying_a_formula">Mathematical Formula Syntax</a></p>
+<h2 id="asciimath">AsciiMath</h2>
+<p>Inline AsciiMath: <code>@(1/2[1-(1/2)^n])/(1-(1/2))=s_n@</code></p>
+<pre class=" language-asciimath"><code class="prism  language-asciimath">oint_Cx^3 dx+4y^2 dy
+
+2=(((3-x)xx2)/(3-x))
+
+sum_(m=1)^oosum_(n=1)^oo(m^2 n)/(3^m(m3^n+n3^m)
+</code></pre>
+<pre class=" language-asciimath"><code class="prism  language-asciimath">phi_n(kappa) = 1/(4pi^2 kappa^2)
+ int_0^oo (sin(kappa R))/(kappa R)
+ del/(del R)
+[R^2 (del D_n (R))/(del R)] del R
+</code></pre>
+<p><a href="http://asciimath.org/">AsciiMath Documentation</a></p>
+<h2 id="mermaid-charts">mermaid charts</h2>
+<h3 id="flowchart">Flowchart</h3>
+<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-hRD5LsrEyg1CcUSw" width="100%" style="max-width: 297.90625px;" viewBox="0 0 297.90625 493.8125"><g transform="translate(-12, -12)"><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M173.109375,66L173.109375,104L173.109375,142" marker-end="url(#arrowhead77)" style="fill:none"></path><defs><marker id="arrowhead77" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M173.109375,188L173.109375,213L173.609375,238.5" marker-end="url(#arrowhead78)" style="fill:none"></path><defs><marker id="arrowhead78" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M137.35247143351802,340.055596433518L54.390625,413.8125L54.390625,451.8125" marker-end="url(#arrowhead79)" style="fill:none"></path><defs><marker id="arrowhead79" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M173.609375,376.3125L173.109375,413.8125L173.109375,451.8125" marker-end="url(#arrowhead80)" style="fill:none"></path><defs><marker id="arrowhead80" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M208.00701992753622,341.91485507246375L279.671875,413.8125L279.671875,451.8125" marker-end="url(#arrowhead81)" style="fill:none"></path><defs><marker id="arrowhead81" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(173.109375,104)" style="opacity: 1;"><g transform="translate(-38.734375,-13)" class="label"><foreignObject width="77.46875" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Get money</span></div></foreignObject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignObject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(54.390625,413.8125)" style="opacity: 1;"><g transform="translate(-15.015625,-13)" class="label"><foreignObject width="30.03125" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">One</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(173.109375,413.8125)" style="opacity: 1;"><g transform="translate(-14.7890625,-13)" class="label"><foreignObject width="29.578125" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Two</span></div></foreignObject></g></g><g class="edgeLabel" transform="translate(279.671875,413.8125)" style="opacity: 1;"><g transform="translate(-20.3203125,-13)" class="label"><foreignObject width="40.640625" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Three</span></div></foreignObject></g></g></g><g class="nodes"><g class="node" id="A" transform="translate(173.109375,43)" style="opacity: 1;"><rect rx="0" ry="0" x="-44.9921875" y="-23" width="89.984375" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-34.9921875,-13)"><foreignObject width="69.984375" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Christmas</div></foreignObject></g></g></g><g class="node" id="B" transform="translate(173.109375,165)" style="opacity: 1;"><rect rx="5" ry="5" x="-54.359375" y="-23" width="108.71875" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-44.359375,-13)"><foreignObject width="88.71875" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Go shopping</div></foreignObject></g></g></g><g class="node" id="C" transform="translate(173.109375,306.90625)" style="opacity: 1;"><polygon points="68.90625,0 137.8125,-68.90625 68.90625,-137.8125 0,-68.90625" rx="5" ry="5" transform="translate(-68.90625,68.90625)"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-43.5625,-13)"><foreignObject width="87.125" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Let me think</div></foreignObject></g></g></g><g class="node" id="D" transform="translate(54.390625,474.8125)" style="opacity: 1;"><rect rx="0" ry="0" x="-34.390625" y="-23" width="68.78125" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-24.390625,-13)"><foreignObject width="48.78125" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Laptop</div></foreignObject></g></g></g><g class="node" id="E" transform="translate(173.109375,474.8125)" style="opacity: 1;"><rect rx="0" ry="0" x="-34.328125" y="-23" width="68.65625" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-24.328125,-13)"><foreignObject width="48.65625" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">iPhone</div></foreignObject></g></g></g><g class="node" id="F" transform="translate(279.671875,474.8125)" style="opacity: 1;"><rect rx="0" ry="0" x="-22.234375" y="-23" width="44.46875" height="46"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-12.234375,-13)"><foreignObject width="24.46875" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Car</div></foreignObject></g></g></g></g></g></g></svg></div>
+<p><a href="http://knsv.github.io/mermaid/#flowcharts-basic-syntax">Flowchart Syntax</a></p>
+<p>::: warning<br>
+Adding many flowcharts will slow down the editor.<br>
+:::</p>
+<h3 id="sequence-diagram">Sequence diagram</h3>
+<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-Imxrnsn5ydFuXXOI" height="100%" width="100%" style="max-width:450px;" viewBox="-50 -10 450 266"><g></g><g><line id="actor4" x1="75" y1="5" x2="75" y2="255" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">Alice</tspan></text></g><g><line id="actor5" x1="275" y1="5" x2="275" y2="255" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">John</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="118" class="messageText" style="text-anchor: middle;">Hello John, how are you?</text><line x1="75" y1="125" x2="275" y2="125" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="153" class="messageText" style="text-anchor: middle;">Great!</text><line x1="275" y1="160" x2="75" y2="160" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><line x1="65" y1="75" x2="285" y2="75" class="loopLine"></line><line x1="285" y1="75" x2="285" y2="170" class="loopLine"></line><line x1="65" y1="170" x2="285" y2="170" class="loopLine"></line><line x1="65" y1="75" x2="65" y2="170" class="loopLine"></line><polygon points="65,75 115,75 115,88 106.6,95 65,95" class="labelBox"></polygon><text x="72.5" y="90" fill="black" class="labelText"><tspan x="72.5" fill="black">loop</tspan></text><text x="175" y="90" fill="black" class="loopText" style="text-anchor: middle;"><tspan x="175" fill="black">[ every day ]</tspan></text></g><g><rect x="0" y="190" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="222.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">Alice</tspan></text></g><g><rect x="200" y="190" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="222.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">John</tspan></text></g></svg></div>
+<p><a href="http://knsv.github.io/mermaid/#sequence-diagrams">Sequence Diagram Syntax</a></p>
+<p>::: warning<br>
+Adding many sequence diagrams will slow down the editor.<br>
+:::</p>
+<h3 id="gantt-diagram">Gantt diagram</h3>
+<div class="mermaid"><svg xmlns="http://www.w3.org/2000/svg" id="mermaid-svg-sHj5yXSw88zRPwD6" height="100%" viewBox="0 0 500 484"><g></g><g class="grid" transform="translate(75, 434)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><path class="domain" stroke="#000" d="M0.5,-399V0.5H350.5V-399"></path><g class="tick" opacity="1" transform="translate(22.5,0)"><line stroke="#000" y2="-399"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-07</text></g><g class="tick" opacity="1" transform="translate(66.5,0)"><line stroke="#000" y2="-399"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-09</text></g><g class="tick" opacity="1" transform="translate(109.5,0)"><line stroke="#000" y2="-399"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-11</text></g><g class="tick" opacity="1" transform="translate(153.5,0)"><line stroke="#000" y2="-399"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-13</text></g><g class="tick" opacity="1" transform="translate(197.5,0)"><line stroke="#000" y2="-399"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-15</text></g><g class="tick" opacity="1" transform="translate(241.5,0)"><line stroke="#000" y2="-399"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-17</text></g><g class="tick" opacity="1" transform="translate(284.5,0)"><line stroke="#000" y2="-399"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-19</text></g><g class="tick" opacity="1" transform="translate(328.5,0)"><line stroke="#000" y2="-399"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-21</text></g></g><g><rect x="0" y="48" width="462.5" height="24" class="section section0"></rect><rect x="0" y="72" width="462.5" height="24" class="section section0"></rect><rect x="0" y="96" width="462.5" height="24" class="section section0"></rect><rect x="0" y="120" width="462.5" height="24" class="section section0"></rect><rect x="0" y="144" width="462.5" height="24" class="section section1"></rect><rect x="0" y="168" width="462.5" height="24" class="section section1"></rect><rect x="0" y="192" width="462.5" height="24" class="section section1"></rect><rect x="0" y="216" width="462.5" height="24" class="section section1"></rect><rect x="0" y="240" width="462.5" height="24" class="section section1"></rect><rect x="0" y="264" width="462.5" height="24" class="section section1"></rect><rect x="0" y="288" width="462.5" height="24" class="section section2"></rect><rect x="0" y="312" width="462.5" height="24" class="section section2"></rect><rect x="0" y="336" width="462.5" height="24" class="section section2"></rect><rect x="0" y="360" width="462.5" height="24" class="section section3"></rect><rect x="0" y="384" width="462.5" height="24" class="section section3"></rect><rect x="0" y="408" width="462.5" height="24" class="section section3"></rect></g><g><rect rx="3" ry="3" x="75" y="50" width="44" height="20" class="task  done0"></rect><rect rx="3" ry="3" x="141" y="74" width="65" height="20" class="task  active0"></rect><rect rx="3" ry="3" x="206" y="98" width="110" height="20" class="task  task0"></rect><rect rx="3" ry="3" x="316" y="122" width="109" height="20" class="task  task0"></rect><rect rx="3" ry="3" x="75" y="146" width="22" height="20" class="task  doneCrit1"></rect><rect rx="3" ry="3" x="119" y="170" width="44" height="20" class="task  doneCrit1"></rect><rect rx="3" ry="3" x="163" y="194" width="65" height="20" class="task  activeCrit1"></rect><rect rx="3" ry="3" x="228" y="218" width="110" height="20" class="task  crit1"></rect><rect rx="3" ry="3" x="338" y="242" width="43" height="20" class="task  task1"></rect><rect rx="3" ry="3" x="381" y="266" width="22" height="20" class="task  task1"></rect><rect rx="3" ry="3" x="119" y="290" width="65" height="20" class="task  active2"></rect><rect rx="3" ry="3" x="184" y="314" width="19" height="20" class="task  task2"></rect><rect rx="3" ry="3" x="184" y="338" width="44" height="20" class="task  task2"></rect><rect rx="3" ry="3" x="228" y="362" width="66" height="20" class="task  task3"></rect><rect rx="3" ry="3" x="294" y="386" width="18" height="20" class="task  task3"></rect><rect rx="3" ry="3" x="312" y="410" width="44" height="20" class="task  task3"></rect><text font-size="11" x="124" y="63.5" text-height="20" class="taskTextOutsideRight taskTextOutside0  doneText0">Completed task            </text><text font-size="11" x="173.5" y="87.5" text-height="20" class="taskText taskText0 activeText0">Active task               </text><text font-size="11" x="261" y="111.5" text-height="20" class="taskText taskText0 ">Future task               </text><text font-size="11" x="370.5" y="135.5" text-height="20" class="taskText taskText0 ">Future task2               </text><text font-size="11" x="102" y="159.5" text-height="20" class="taskTextOutsideRight taskTextOutside1  doneCritText1">Completed task in the critical line </text><text font-size="11" x="168" y="183.5" text-height="20" class="taskTextOutsideRight taskTextOutside1  doneCritText1">Implement parser and jison          </text><text font-size="11" x="233" y="207.5" text-height="20" class="taskTextOutsideRight taskTextOutside1 activeCritText1 critText1">Create tests for parser             </text><text font-size="11" x="343" y="231.5" text-height="20" class="taskTextOutsideRight taskTextOutside1  critText1">Future task in critical line        </text><text font-size="11" x="333" y="255.5" text-height="20" class="taskTextOutsideLeft taskTextOutside1 ">Create tests for renderer           </text><text font-size="11" x="376" y="279.5" text-height="20" class="taskTextOutsideLeft taskTextOutside1 ">Add to mermaid                      </text><text font-size="11" x="189" y="303.5" text-height="20" class="taskTextOutsideRight taskTextOutside2 activeText2">Describe gantt syntax               </text><text font-size="11" x="208" y="327.5" text-height="20" class="taskTextOutsideRight taskTextOutside2 ">Add gantt diagram to demo page      </text><text font-size="11" x="233" y="351.5" text-height="20" class="taskTextOutsideRight taskTextOutside2 ">Add another diagram to demo page    </text><text font-size="11" x="299" y="375.5" text-height="20" class="taskTextOutsideRight taskTextOutside3 ">Describe gantt syntax               </text><text font-size="11" x="289" y="399.5" text-height="20" class="taskTextOutsideLeft taskTextOutside3 ">Add gantt diagram to demo page      </text><text font-size="11" x="307" y="423.5" text-height="20" class="taskTextOutsideLeft taskTextOutside3 ">Add another diagram to demo page    </text></g><g><text x="10" y="98" class="sectionTitle sectionTitle0">A section</text><text x="10" y="218" class="sectionTitle sectionTitle1">Critical tasks</text><text x="10" y="326" class="sectionTitle sectionTitle2">Documentation</text><text x="10" y="398" class="sectionTitle sectionTitle3">Last section</text></g><g class="today"><line x1="42991" x2="42991" y1="25" y2="459" class="today"></line></g><text x="250" y="25" class="titleText">Adding GANTT diagram to mermaid</text></svg></div>
+<p><a href="http://knsv.github.io/mermaid/#gant-diagrams">Gantt Diagram Syntax</a></p>
+<p>::: warning<br>
+Adding many gantt diagrams will slow down the editor.<br>
+:::</p>
+<h3 id="class-diagram">Class diagram</h3>
+<pre class=" language-mermaid"><code class="prism  language-mermaid">classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &lt;--&gt; C2: Cool label
+</code></pre>
+<p>Class diagram is powered by <a href="https://github.com/knsv/mermaid">mermaid</a>.</p>
+<p>::: warning<br>
+Adding many class diagrams will slow down the editor.<br>
+:::</p>
+<h2 id="custom-container">Custom Container</h2>
+<p>Markup is similar to fenced code blocks. Valid container types are <code>success</code>, <code>info</code>, <code>warning</code> and <code>danger</code>.</p>
+<p>::: info<br>
+You have new mail.<br>
+:::</p>
+<p>::: danger<br>
+Staying up all night is bad for health.<br>
+:::</p>
+<h2 id="definition-list">Definition list</h2>
+<dl>
+<dt>Term 1</dt>
+<dd>Definition 1</dd>
+<dt>Term 2</dt>
+<dd>Definition 2a</dd>
+<dd>Definition 2b</dd>
+</dl>
+<p><a href="http://pandoc.org/README.html#definition-lists">Definition List Syntax</a></p>
+<h2 id="html"><abbr title="Hyper Text Markup Language">HTML</abbr></h2>
+<p>If you find the markdown syntax too limited, you can try some <span><abbr title="Hyper Text Markup Language">HTML</abbr><span>:</span></span></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png"></p>
+<p><a href="https://github.com/tylingsoft/markdown-plus" target="_blank"><img src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-green.png" alt="Fork me on GitHub"></a></p>
+<h2 id="charts">Charts</h2>
+<p><a href="http://www.chartjs.org/docs/">Documentation for charts</a></p>
+<h3 id="line-chart">Line Chart</h3>
+<pre class=" language-chart"><code class="prism  language-chart">{
+  "type": "line",
+  "data": {
+    "labels": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July"
+    ],
+    "datasets": [
+      {
+        "label": "# of bugs",
+        "fill": false,
+        "lineTension": 0.1,
+        "backgroundColor": "rgba(75,192,192,0.4)",
+        "borderColor": "rgba(75,192,192,1)",
+        "borderCapStyle": "butt",
+        "borderDash": [],
+        "borderDashOffset": 0,
+        "borderJoinStyle": "miter",
+        "pointBorderColor": "rgba(75,192,192,1)",
+        "pointBackgroundColor": "#fff",
+        "pointBorderWidth": 1,
+        "pointHoverRadius": 5,
+        "pointHoverBackgroundColor": "rgba(75,192,192,1)",
+        "pointHoverBorderColor": "rgba(220,220,220,1)",
+        "pointHoverBorderWidth": 2,
+        "pointRadius": 1,
+        "pointHitRadius": 10,
+        "data": [
+          65,
+          59,
+          80,
+          81,
+          56,
+          55,
+          40
+        ],
+        "spanGaps": false
+      }
+    ]
+  },
+  "options": {}
+}
+</code></pre>
+<br>
+<p><a href="http://www.chartjs.org/docs/#line-chart">Documentation for Line Chart</a></p>
+<h3 id="bar-chart">Bar Chart</h3>
+<pre class=" language-chart"><code class="prism  language-chart">{
+  "type": "bar",
+  "data": {
+  "labels": [
+    "Red",
+    "Blue",
+    "Yellow",
+    "Green",
+    "Purple",
+    "Orange"
+  ],
+  "datasets": [
+    {
+    "label": "# of Votes",
+    "data": [
+      12,
+      19,
+      3,
+      5,
+      2,
+      3
+    ],
+    "backgroundColor": [
+      "rgba(255, 99, 132, 0.2)",
+      "rgba(54, 162, 235, 0.2)",
+      "rgba(255, 206, 86, 0.2)",
+      "rgba(75, 192, 192, 0.2)",
+      "rgba(153, 102, 255, 0.2)",
+      "rgba(255, 159, 64, 0.2)"
+    ],
+    "borderColor": [
+      "rgba(255,99,132,1)",
+      "rgba(54, 162, 235, 1)",
+      "rgba(255, 206, 86, 1)",
+      "rgba(75, 192, 192, 1)",
+      "rgba(153, 102, 255, 1)",
+      "rgba(255, 159, 64, 1)"
+    ],
+    "borderWidth": 1
+    }
+  ]
+  },
+  "options": {}
+}
+</code></pre>
+<br>
+<p><a href="http://www.chartjs.org/docs/#bar-chart">Documentation for Bar Chart</a></p>
+<h3 id="radar-chart">Radar Chart</h3>
+<pre class=" language-chart"><code class="prism  language-chart">{
+  "type": "radar",
+  "data": {
+    "labels": [
+      "Eating",
+      "Drinking",
+      "Sleeping",
+      "Designing",
+      "Coding",
+      "Cycling",
+      "Running"
+    ],
+    "datasets": [
+      {
+        "label": "My First dataset",
+        "backgroundColor": "rgba(179,181,198,0.2)",
+        "borderColor": "rgba(179,181,198,1)",
+        "pointBackgroundColor": "rgba(179,181,198,1)",
+        "pointBorderColor": "#fff",
+        "pointHoverBackgroundColor": "#fff",
+        "pointHoverBorderColor": "rgba(179,181,198,1)",
+        "data": [
+          65,
+          59,
+          90,
+          81,
+          56,
+          55,
+          40
+        ]
+      },
+      {
+        "label": "My Second dataset",
+        "backgroundColor": "rgba(255,99,132,0.2)",
+        "borderColor": "rgba(255,99,132,1)",
+        "pointBackgroundColor": "rgba(255,99,132,1)",
+        "pointBorderColor": "#fff",
+        "pointHoverBackgroundColor": "#fff",
+        "pointHoverBorderColor": "rgba(255,99,132,1)",
+        "data": [
+          28,
+          48,
+          40,
+          19,
+          96,
+          27,
+          100
+        ]
+      }
+    ]
+  },
+  "options": {}
+}
+</code></pre>
+<br>
+<p><a href="http://www.chartjs.org/docs/#radar-chart">Documentation for Radar Chart</a></p>
+<h3 id="polar-area-chart">Polar Area Chart</h3>
+<pre class=" language-chart"><code class="prism  language-chart">{
+  "type": "polarArea",
+  "data": {
+    "datasets": [
+      {
+        "data": [
+          11,
+          16,
+          7,
+          3,
+          14
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#4BC0C0",
+          "#FFCE56",
+          "#E7E9ED",
+          "#36A2EB"
+        ],
+        "label": "My dataset"
+      }
+    ],
+    "labels": [
+      "Red",
+      "Green",
+      "Yellow",
+      "Grey",
+      "Blue"
+    ]
+  },
+  "options": {}
+}
+</code></pre>
+<br>
+<p><a href="http://www.chartjs.org/docs/#polar-area-chart">Documentation for Polar Area Chart</a></p>
+<h3 id="pie-chart">Pie Chart</h3>
+<pre class=" language-chart"><code class="prism  language-chart">{
+  "type": "pie",
+  "data": {
+    "labels": [
+      "Red",
+      "Blue",
+      "Yellow"
+    ],
+    "datasets": [
+      {
+        "data": [
+          300,
+          50,
+          100
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56"
+        ]
+      }
+    ]
+  },
+  "options": {}
+}
+</code></pre>
+<br>
+<p><a href="http://www.chartjs.org/docs/#doughnut-pie-chart">Documentation for Pie Chart</a></p>
+<h3 id="doughnut-chart">Doughnut Chart</h3>
+<pre class=" language-chart"><code class="prism  language-chart">{
+  "type": "doughnut",
+  "data": {
+    "labels": [
+      "Red",
+      "Blue",
+      "Yellow"
+    ],
+    "datasets": [
+      {
+        "data": [
+          300,
+          50,
+          100
+        ],
+        "backgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56"
+        ],
+        "hoverBackgroundColor": [
+          "#FF6384",
+          "#36A2EB",
+          "#FFCE56"
+        ]
+      }
+    ]
+  },
+  "options": {}
+}
+</code></pre>
+<br>
+<p><a href="http://www.chartjs.org/docs/#doughnut-pie-chart">Documentation for Doughnut Chart</a></p>
+<h3 id="bubble-chart">Bubble Chart</h3>
+<pre class=" language-chart"><code class="prism  language-chart">{
+  "type": "bubble",
+  "data": {
+    "datasets": [
+      {
+        "label": "First Dataset",
+        "data": [
+          {
+            "x": 20,
+            "y": 30,
+            "r": 15
+          },
+          {
+            "x": 40,
+            "y": 10,
+            "r": 10
+          }
+        ],
+        "backgroundColor": "#FF6384",
+        "hoverBackgroundColor": "#FF6384"
+      }
+    ]
+  },
+  "options": {}
+}
+</code></pre>
+<br>
+<p><a href="http://www.chartjs.org/docs/#bubble-chart">Documentation for Bubble Chart</a></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Here is the footnote. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Here’s one with multiple blocks.</p>
+<p>Subsequent paragraphs are indented to show that they<br>
+belong to the previous footnote. <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>Inlines notes are easier to write, since<br>
+you don't have to pick an identifier and move down to type the<br>
+note. <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+  </div>
+</body>
+
+</html>
